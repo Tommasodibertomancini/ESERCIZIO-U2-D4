@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Indie Flower', cursive;
+  background-color: #666666;
+}
+
+.tasks-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 5%;
+}
+
+.task {
+  margin: 12px 0;
+  width: 22%;
+  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  margin-bottom: 2%;
+  transition: transform 0.3s linear;
+}
+
+.task:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+h2,
+p {
+  width: 60%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.2em;
+  margin-bottom: 2%;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.yellow {
+  background: linear-gradient(
+    rgb(255, 255, 204) 0%,
+    rgb(227, 227, 183) 75%,
+    rgb(198, 198, 165) 93%
+  );
+  transform: rotate(-3deg);
+}
+
+.green {
+  background: linear-gradient(
+    rgb(204, 255, 204) 0%,
+    rgb(184, 219, 184) 75%,
+    rgb(146 180 146) 93%
+  );
+  transform: rotate(5deg);
+}
+
+.violet {
+  background: linear-gradient(
+    rgb(204, 204, 255) 0%,
+    rgb(176, 176, 204) 75%,
+    rgb(147 147 186) 93%
+  );
+  transform: rotate(-9deg);
+}
