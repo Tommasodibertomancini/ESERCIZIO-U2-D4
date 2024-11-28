@@ -73,3 +73,9 @@ p {
   );
   transform: rotate(-9deg);
 }
+
+a {
+  font-weight: 700;
+  color: blanchedalmond;
+  margin-left: 20px;
+}
